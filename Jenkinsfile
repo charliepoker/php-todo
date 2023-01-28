@@ -34,9 +34,8 @@ pipeline {
      stage('Execute Unit Tests') {
       steps {
              sh './vendor/bin/phpunit'
-      }
-
-     }
+      } 
+    }ph
 
     stage('Code Analysis') {
       steps {
